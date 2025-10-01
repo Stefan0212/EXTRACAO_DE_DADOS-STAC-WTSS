@@ -2,10 +2,10 @@
 # COMO EXECUTAR
 
 1. Abra a pasta seu_projeto no VS Code.
-2. Abra o terminal integrado (Ctrl + Shift + P e digite "Terminal: Create New Terminal").
-3. Certifique-se de que está no ambiente virtual correto (o VS Code geralmente sugere a ativação).
-4. Instale as dependências: pip install -r requirements.txt.
-5. Execute o script: python main.py.
-6. configure o .env de acordo com o seu banco de dados ( ⚠ )
+2. Abra o terminal.
+3. Certifique-se de rodar o npm-i antes de abir o projeto.
+4. abra o seu mongo 
+5. Execute o projeto com um npx ts-node/src/data.ts
+6. configure o seu banco de dados para estar em conformidade com o projeto ( ⚠ )
 
-O codigo esta todo funcional, dependencias ja estao no lugar correto dentro do projeto. Apenas tente seguir os passos mostrados.
+O codigo esta todo funcional. Apenas tente seguir os passos mostrados. 🙈
