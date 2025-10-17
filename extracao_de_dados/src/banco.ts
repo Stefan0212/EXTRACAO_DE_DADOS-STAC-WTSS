@@ -22,7 +22,7 @@ async function initializeDatabase() {
 
     console.log(`Conectado ao MongoDB. Usando o banco de dados: ${DB_NAME}`);
 
-    //Bloco para verificar e criar coleções
+    //Bloco para criar coleções
 
     const requiredCollections = [
       "produtos_stac",
@@ -44,7 +44,6 @@ async function initializeDatabase() {
       }
     }
 
-    //Lógica de Sincronização
 
     console.log("Iniciando sincronização dos produtos de dados...");
 
@@ -112,3 +111,4 @@ async function initializeDatabase() {
 }
 
 initializeDatabase();
+
